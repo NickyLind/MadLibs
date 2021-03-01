@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Let's Make a Madlib!</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  </head>
+  <body>
+    <h1>Fill out the following fields to create a Madlib</h1>
+    <form action="/djmadlib" method="post">
+      <label for="genre">Enter a music genre</label>
+      <input id="genre" name="genre" type="text">
+      <br>
+      <label for="genreTwo">Enter another music genre</label>
+      <input id="genreTwo" name="genreTwo" type="text">
+      <br>
+      <label for="food">Enter a food</label>
+      <input id="food" name="food" type="text">
+      <br>
+      <label for="instrument">Enter an instrument</label>
+      <input id="instrument" name="instrument" type="text">
+      <br>
+      <label for="number">Enter a number</label>
+      <input id="number" name="number" type="number">
+      <br>
+      <label for="adjective">Enter an adjective</label>
+      <input id="adjective" name="adjective" type="text">
+      <br>
+      <label for="onomatopoeia">Enter an onomatopoeia("Bam!", "Bang!")</label>
+      <input id="onomatopoeia" name="onomatopoeia" type="text">
+      <br>
+      <label for="noun">Enter a noun</label>
+      <input id="noun" name="noun" type="text"> 
+      <br>
+      <button type="submit">let's rock</button>
+    </form>
+    <br>
+    <form action="/" method="post">
+      <button type="submit">Go Back</button>
+    </form>
+    </form>
+  </body>
+</html>

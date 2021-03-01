@@ -14,6 +14,13 @@ namespace MadLibs.Models
 
   public class DJVariable
   {
-
+    public string Genre { get; set; }
+    public string GenreTwo { get; set; }
+    public string Food { get; set; }
+    public string Instrument { get; set; }
+    public int Number { get; set; }
+    public string Adjective { get; set; }
+    public string Onomatopeia { get; set; }
+    public string Noun { get; set; }
   }
 } 

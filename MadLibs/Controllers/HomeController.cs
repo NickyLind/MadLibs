@@ -25,5 +25,23 @@ namespace MadLibs.Controllers
         myComputerVariable.AdjectiveTwo = adjectiveTwo;
         return View(myComputerVariable);
       }
+    
+    [Route("/djform")]
+    public ActionResult DJForm() {return View();}
+
+    [Route("/djmadlib")]
+    public ActionResult DJMadlib(string genre, string genreTwo, string food, string instrument, int number, string adjective, string onomatopeia, string noun)
+    {
+      DJVariable myDJVariable = new DJVariable();
+      myDJVariable.Genre = genre;
+      myDJVariable.GenreTwo = genreTwo;
+      myDJVariable.Food = food;
+      myDJVariable.Instrument = instrument;
+      myDJVariable.Number = number;
+      myDJVariable.Adjective = adjective;
+      myDJVariable.Onomatopeia = onomatopeia;
+      myDJVariable.Noun = noun;
+      return View(myDJVariable);
+    }
   }
 }
