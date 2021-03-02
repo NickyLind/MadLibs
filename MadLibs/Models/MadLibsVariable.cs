@@ -23,4 +23,26 @@ namespace MadLibs.Models
     public string Onomatopeia { get; set; }
     public string Noun { get; set; }
   }
+
+  public class SchoolVariable
+  {
+    public int Number { get; set; }
+    public string Noun { get; set; }
+    public string Verb { get; set; }
+    public string Adjective { get; set; }
+    public string FirstName { get; set; }
+    public string Exclamation { get; set; }
+    public string AdjectiveTwo { get; set; }
+    public string TypeOfContainer { get; set; }
+    public string LetterOfAlphabet { get; set; }
+    public string PersonInRoom { get; set; }
+    public string VerbTwo { get; set; }
+    public string ArticleOfClothing { get; set; }
+    public string SillyWord { get; set; }
+    public string AdjectiveThree { get; set; }
+    public string VerbThree { get; set; }
+    public string PartOfBody { get; set; }
+    public string Vehicle { get; set; }
+    public string Animal { get; set; }
+  }
 } 
